@@ -12,7 +12,7 @@ steps:
 - name: Set up Python 3.11.7
 uses: actions/setup-python@v4
 with:
-python-version: 3.11.7
+PYTHON-VERSION: 3.11.7
 - name: Install dependencies
 run: |
 python -m pip install --upgrade pip
